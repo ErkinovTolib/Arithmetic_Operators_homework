@@ -9,6 +9,7 @@
 #Print the number.
 number = 23
 number = int(number)
-number/=2
-x = round(number,2)
-print(x)
+x = number/2
+answer = round(x)
+print(answer)
+print(number)
